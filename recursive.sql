@@ -1,3 +1,8 @@
+/**
+  This query takes distinct set of attributes and values expressed as JSONB
+  And uses it to generate a superset - the set of all possible combinations of values.
+**/
+
 WITH RECURSIVE all_combinations
 AS(
     -- anchor member
